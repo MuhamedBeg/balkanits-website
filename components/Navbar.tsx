@@ -6,14 +6,26 @@ export default function Navbar() {
         <header className="sticky top-0 z-50 border-b border-slate-200/60 bg-white/80 backdrop-blur-xl">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
                 <Link href="/" className="flex items-center">
-                    <Image
-                        src="/images/logo.png"
-                        alt="BalkanITS logo"
-                        width={170}
-                        height={70}
-                        className="h-10 w-auto"
-                        priority
-                    />
+                    <div className="flex items-center gap-3">
+  <Image
+    src="/images/logo.png"
+    alt="BalkanITS"
+    width={70}
+    height={45}
+    className="h-auto w-24 object-contain"
+    priority
+  />
+
+  <div className="h-8 w-px bg-slate-300" />
+
+  <Image
+    src="/images/eu.png"
+    alt="European Union"
+    width={110}
+    height={110}
+    className="h-8 w-auto object-contain"
+  />
+</div>
                 </Link>
 
                 <nav className="hidden items-center gap-8 text-sm font-semibold text-blue-950 md:flex">
