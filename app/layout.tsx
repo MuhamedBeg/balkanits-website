@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "BalkanITS | Erasmus+ Project",
   description:
     "BalkanITS – EU-Balkan Innovative Master Curriculum in Intelligent Transport Systems, supported by the Erasmus+ Programme.",
+  icons: {
+  icon: "/images/logo.png",
+  shortcut: "/images/logo.png",
+  apple: "/images/logo.png",
+},
 };
 
 export default function RootLayout({
