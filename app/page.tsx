@@ -308,28 +308,29 @@ export default function Home() {
                 image: "/images/kickoff.jpg",
                 link: "https://www.unsa.ba/novosti/odrzan-kick-sastanak-erasmus-cbhe-projekta-balkanits-na-fakultetu-za-saobracaj-i",
               },
-              {
-                date: "01–05 June 2026",
-                title: "2nd Consortium Workshop",
-                location: "Budva, Montenegro",
-                image: "/images/workshop-montenegro.jpg",
-                link: "#",
-              },
-              {
-                date: "December 2026",
-                title:
-                  "Consortium Workshop ",
-                location: "Prishtina, Kosovo",
-                image: "/images/workshop-prishtina.jpg",
-                link: "#",
-              },
-              {
-                date: "Date TBD",
-                title: "International Conference",
-                location: "Bucharest, Romania",
-                image: "/images/workshop-bucharest.jpg",
-                link: "#",
-              },
+              
+{
+  date: "01–05 June 2026",
+  title: "2nd Consortium Workshop",
+  location: "Budva, Montenegro",
+  image: "/images/workshop-montenegro.jpg",
+  link: "https://www.unsa.ba/novosti/predstavnici-fakulteta-za-saobracaj-i-komunikacije-unsa-ucestvovali-na-drugom-konzorcijskom",
+},
+{
+  date: "09 September 2026",
+  title: "Project Meeting Held Under the Erasmus+ BalkanITS Project",
+  location: "Faculty of Traffic and Communications, University of Sarajevo",
+  image: "/images/kickoff.jpg",
+  link: "https://www.unsa.ba/en/novosti/faculty-traffic-and-communications-university-sarajevo-project-meeting-held-under-erasmus",
+},
+{
+  date: "26–28 October 2026",
+  title: "3rd Consortium Workshop",
+  location: "Prishtina, Kosovo",
+  image: "/images/workshop-prishtina.jpg",
+  link: "#",
+},
+
             ].map((event) => (
               <article
                 key={event.title}
