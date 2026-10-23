@@ -32,14 +32,10 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="mb-4 font-bold">Contact</h3>
+  <h3 className="mb-4 font-bold">Contact</h3>
 
-          <p className="text-sm text-blue-100">info@balkanits.eu</p>
-
-          <p className="mt-2 text-sm text-blue-100">
-            Sarajevo, Bosnia and Herzegovina
-          </p>
-        </div>
+  <p className="text-sm text-blue-100">info@balkanits.net</p>
+</div>
 
         <div>
           <h3 className="mb-4 font-bold">EU Disclaimer</h3>
