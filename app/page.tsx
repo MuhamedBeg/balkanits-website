@@ -320,7 +320,7 @@ export default function Home() {
   date: "09 September 2026",
   title: "Project Meeting Held Under the Erasmus+ BalkanITS Project",
   location: "Faculty of Traffic and Communications, University of Sarajevo",
-  image: "/images/kickoff.jpg",
+  image: "/images/project-meeting-sarajevo.jpg",
   link: "https://www.unsa.ba/en/novosti/faculty-traffic-and-communications-university-sarajevo-project-meeting-held-under-erasmus",
 },
 {
